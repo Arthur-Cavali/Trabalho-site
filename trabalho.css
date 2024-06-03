@@ -5,6 +5,11 @@ body{
 .cabecalho{
     column-count: 2;
     background-color: lightgray;
+    background-image: url(fundo2.jpg);
+    background-size: 100% 100%
+    
+    
+    
 }
 .logo img{
     height: 200px;
@@ -12,13 +17,14 @@ body{
     display: block;
     margin-left: 30px;
     margin-right: auto;
+    border-radius: 50%;
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightgray;
+    
     text-align: right;
 }
 li{
@@ -31,7 +37,7 @@ li a, .titulo-smenu{
     text-decoration: none;
 }
 li a:hover, .submenu:hover .titulo-smenu{
-    background-color: navy;
+    background-color: blue;
     color: white;
 }
 li.submenu{
@@ -80,7 +86,7 @@ li.submenu{
 .imagem-descr img{
     width: 50%;
     height: auto;
-    max-height: 110px;
+    max-height: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -99,6 +105,13 @@ li.submenu{
 .destaque2 h1{
     text-shadow: 3px 3px 0px blue;
 }
+
+.contato{
+    
+    color: black;
+    font-weight: bolder;
+}
+
 .rodape{
     background-color: lightgray;
     color: black;
